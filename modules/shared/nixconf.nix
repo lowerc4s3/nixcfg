@@ -1,11 +1,11 @@
 {
   flake.nixosModules.shared = {pkgs, ...}: {
     nix.settings = {
-      expertimetal-features = ["flakes" "nix-command"];
+      experimental-features = ["flakes" "nix-command"];
 
       # Detect duplicate files in nix store
       # and replace them with hard links
-      auto-optimize-store = true;
+      auto-optimise-store = true;
     };
     nixpkgs.config.allowUnfree = true;
 
