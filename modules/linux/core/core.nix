@@ -10,12 +10,12 @@
       enable = true;
       enableCompletion = true;
     };
-  };
 
-  programs.nix-ld = {
-    enable = true;
-    libraries = with pkgs; [];
-  };
+    programs.nix-ld = {
+      enable = true;
+      libraries = with pkgs; [];
+    };
 
-  security.sudo.enable = true;
+    security.sudo.enable = true;
+  };
 }

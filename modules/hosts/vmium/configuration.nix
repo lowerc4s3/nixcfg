@@ -25,7 +25,7 @@
       kernelPackages = pkgs.linuxPackages_latest; # TODO: check out zen
       supportedFileSystems = ["ntfs"];
     };
-  };
 
-  system.stateVersion = "25.11";
+    system.stateVersion = "25.11";
+  };
 }

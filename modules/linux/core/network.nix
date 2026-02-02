@@ -11,9 +11,9 @@
       networkManager = {
         enable = true;
       };
-    };
 
-    # not sure
-    # services.openssh.enable = true;
+      # not sure
+      # services.openssh.enable = true;
+    };
   };
 }
